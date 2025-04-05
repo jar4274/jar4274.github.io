@@ -1,0 +1,83 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#header, #footer, #top-nav, #bottom-nav, #left-nav, #main-content {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Header */
+#header {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/* Top Navigation */
+#top-nav {
+    background-color: #d0e0f0;
+    text-align: center;
+}
+
+#top-nav a {
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Left Navigation */
+#left-nav {
+    float: left;
+    width: 20%;
+    background-color: #f8f8f8;
+}
+
+#left-nav h3 {
+    margin-top: 0;
+}
+
+/* Main Content */
+#main-content {
+    float: left;
+    width: 75%;
+    padding: 20px;
+    background-color: white;
+    min-height: 300px;
+}
+
+#image-container {
+    float: left;
+    margin-right: 20px;
+}
+
+#bio {
+    overflow: hidden;
+}
+
+/* Footer */
+#footer {
+    clear: both;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+#bottom-nav {
+    margin-bottom: 10px;
+}
+
+/* Classes and IDs */
+.bold {
+    font-weight: bold;
+}
+
+.heading-background {
+    background-color: #e0f7fa;
+}
+
+#main-content p {
+    margin: 6px 0;
+}
