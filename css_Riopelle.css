@@ -81,3 +81,10 @@ body {
 #main-content p {
     margin: 6px 0;
 }
+/*Profile Pic Scaling*/
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; /* This keeps the image from stretching */
+  border: 2px solid #333; /* Optional: to visually define the box */
+}
